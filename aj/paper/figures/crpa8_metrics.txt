@@ -1,0 +1,13 @@
+lambda_L5 = 0.2548 m, ring radius = 0.1274 m, ring spacing = 0.1106 m
+satellites (az, el) = {'PRN 2': (300.5, 66.8), 'PRN 6': (246.7, 37.1), 'PRN 9': (203.7, 30.8), 'PRN 10': (101.2, 24.8), 'A1': (155.1, 64.3), 'A2': (67.9, 48.9), 'A3': (142.3, 20.7)}
+== base scenario
+PI: null depths (dB) = [-121.1, -121.9, -121.1]; satellite gains (dB) = {'PRN 2': -2.3, 'PRN 6': -4.1, 'PRN 9': -5.2, 'PRN 10': -2.8, 'A1': -2.2, 'A2': -4.4, 'A3': -10.6}; output SINR (dB) = {'PRN 2': -27.9, 'PRN 6': -29.6, 'PRN 9': -30.7, 'PRN 10': -28.3, 'A1': -27.7, 'A2': -30.0, 'A3': -36.1}
+MVDR common (PRN 6): null depths (dB) = [-132.7, -127.6, -127.7]; satellite gains (dB) = {'PRN 2': -14.3, 'PRN 6': -0.3, 'PRN 9': -4.9, 'PRN 10': -16.2, 'A1': -14.9, 'A2': -10.0, 'A3': -25.0}; output SINR (dB) = {'PRN 2': -35.7, 'PRN 6': -21.7, 'PRN 9': -26.2, 'PRN 10': -37.6, 'A1': -36.3, 'A2': -31.4, 'A3': -46.3}
+LCMV common (7 constraints): null depths (dB) = [-6.4, -9.0, -27.3]; satellite gains (dB) = {'PRN 2': -5.7, 'PRN 6': -5.7, 'PRN 9': -5.7, 'PRN 10': -5.7, 'A1': -5.7, 'A2': -5.7, 'A3': -5.7}; output SINR (dB) = {'PRN 2': -81.2, 'PRN 6': -81.2, 'PRN 9': -81.2, 'PRN 10': -81.2, 'A1': -81.2, 'A2': -81.2, 'A3': -81.2}
+Per-satellite MVDR beams: output SINR (dB) = {'PRN 2': -22.2, 'PRN 6': -21.7, 'PRN 9': -22.2, 'PRN 10': -21.4, 'A1': -23.0, 'A2': -23.0, 'A3': -25.0}
+== scenario J6 (jammer 10 deg below PRN 10)
+PI: null depths (dB) = [-120.7, -122.1, -124.4]; satellite gains (dB) = {'PRN 2': -2.4, 'PRN 6': -7.8, 'PRN 9': -3.0, 'PRN 10': -39.4, 'A1': -1.3, 'A2': -21.3, 'A3': -6.7}; output SINR (dB) = {'PRN 2': -26.7, 'PRN 6': -32.1, 'PRN 9': -27.3, 'PRN 10': -63.7, 'A1': -25.6, 'A2': -45.6, 'A3': -31.0}
+MVDR common (PRN 6): null depths (dB) = [-135.9, -134.1, -129.0]; satellite gains (dB) = {'PRN 2': -11.7, 'PRN 6': -0.2, 'PRN 9': -7.2, 'PRN 10': -25.1, 'A1': -34.4, 'A2': -11.7, 'A3': -12.0}; output SINR (dB) = {'PRN 2': -32.9, 'PRN 6': -21.4, 'PRN 9': -28.4, 'PRN 10': -46.3, 'A1': -55.6, 'A2': -32.9, 'A3': -33.2}
+LCMV common (7 constraints): null depths (dB) = [-7.5, -5.7, -16.4]; satellite gains (dB) = {'PRN 2': -5.6, 'PRN 6': -5.6, 'PRN 9': -5.6, 'PRN 10': -5.6, 'A1': -5.6, 'A2': -5.6, 'A3': -5.6}; output SINR (dB) = {'PRN 2': -82.4, 'PRN 6': -82.4, 'PRN 9': -82.4, 'PRN 10': -82.4, 'A1': -82.4, 'A2': -82.4, 'A3': -82.4}
+Per-satellite MVDR beams: output SINR (dB) = {'PRN 2': -22.6, 'PRN 6': -21.4, 'PRN 9': -21.5, 'PRN 10': -40.0, 'A1': -21.5, 'A2': -25.2, 'A3': -21.4}
+Single element SINR = -84.8 dB

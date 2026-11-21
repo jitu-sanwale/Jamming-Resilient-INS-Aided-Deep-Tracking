@@ -1,0 +1,29 @@
+# Generated data: the simulator writes several GB of IF data and trajectories
+Simulator/IFdata/
+Simulator/FighterProfiles/
+*.bin
+# Receiver outputs and caches
+Receiver/output*/
+*.mat
+# MATLAB and OS by-products
+*.asv
+*.m~
+slprj/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python and LaTeX by-products
+__pycache__/
+*.pyc
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.bak*
+# local output folder of aj/paper (tables and figures); the manuscript is not in the repository
+/paper/
+# supplementary material of the papers (not part of the code release)
+/supplementary/

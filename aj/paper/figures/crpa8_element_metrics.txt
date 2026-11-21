@@ -1,0 +1,9 @@
+ring radius = 0.1274 m, adjacent spacing = 0.1106 m, coupling adjacent = -20 dB
+embedded element gain spread over |zenith| <= 80 deg: max 4.38 dB
+embedded zenith gains (dBic): [6.06, 5.06, 5.06, 5.06, 5.06, 5.06, 5.06, 5.06]
+uniform: peak 14.2 dB at zenith angle 0.0; gain to PRN 10 -15.4 dB; gain to J6 jammer -11.8 dB
+beam PRN 10: peak 10.7 dB at zenith angle 45.6; gain to PRN 10 9.0 dB; gain to J6 jammer 7.3 dB
+PI: peak 10.2 dB at zenith angle -4.5; gain to PRN 10 -24.4 dB; gain to J6 jammer -113.8 dB
+per-sat beam PRN 10: peak 11.1 dB at zenith angle 17.3; gain to PRN 10 -9.9 dB; gain to J6 jammer -88.4 dB
+PI: output SINR PRN 10 = -54.4 dB
+per-sat beam PRN 10: output SINR PRN 10 = -39.9 dB

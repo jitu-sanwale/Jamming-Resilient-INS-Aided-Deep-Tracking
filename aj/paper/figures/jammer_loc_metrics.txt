@@ -1,0 +1,8 @@
+S1_baseline_cruise_s01 | truth: final error 5 m, CEP50 1.8 m, first below 100 m after 2.9 s, bearing rms az 0.0054 deg el 0.045 deg, n 350
+S1_baseline_cruise_s01 | ins: final error 15 m, CEP50 1.9 m, first below 100 m after 1.9 s, bearing rms az 0.0207 deg el 0.048 deg, n 350
+S1_baseline_cruise_s01 | yaw0.1: final error 68 m, CEP50 1.8 m, first below 100 m after 2.9 s, bearing rms az 0.1008 deg el 0.045 deg, n 350
+S1_baseline_cruise_s01 | yaw0.5: final error 342 m, CEP50 2.4 m, first below 100 m after nan s, bearing rms az 0.5011 deg el 0.046 deg, n 350
+S1_break_gonset_s01 | truth: final error 29 m, CEP50 4.2 m, first below 100 m after 0.9 s, bearing rms az 0.0731 deg el 0.023 deg, n 350
+S1_break_gonset_s01 | ins: final error 40 m, CEP50 4.5 m, first below 100 m after 2.9 s, bearing rms az 0.0755 deg el 0.026 deg, n 350
+S1_break_gonset_s01 | yaw0.1: final error 40 m, CEP50 7.7 m, first below 100 m after 7.9 s, bearing rms az 0.1078 deg el 0.049 deg, n 350
+S1_break_gonset_s01 | yaw0.5: track rejected (bearings inconsistent)
